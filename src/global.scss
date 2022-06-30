@@ -1,0 +1,46 @@
+:root {
+    /* PRIMARY */
+    --cyan: hsl(180, 66%, 49%);
+    --dark-violet: hsl(257, 27%, 26%);
+
+    /* SECONDARY */
+    --red: hsl(0, 87%, 67%);
+
+    /* NEUTRAL */
+
+    --white: hsl(0, 0%, 100%);
+    --gray: hsl(0, 0%, 75%);
+    --grayish-violet: hsl(257, 7%, 63%);
+    --very-dark-blue: hsl(255, 11%, 22%);
+    --very-dark-violet: hsl(260, 8%, 14%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.125rem;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body, input, button {
+    font-family: Poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    position: relative;
+    height: 482px;
+    margin-top: 5rem;
+
+    img {
+        height: 482px;
+        right: -250px;
+        position: absolute;
+    }
+
+    div {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        h1 {
+            font-size: 4rem;
+            line-height: 1.7ch;
+            color: var(--very-dark-violet);
+        }
+
+        p {
+            color: var(--grayish-violet);
+        }
+
+        button {
+            padding: 0.5rem 2rem;
+            border-radius: 3rem;
+            color: var(--white);
+            background-color: var(--cyan);
+            border: 0;
+
+            margin-top: 2rem;
+            transition: background-color 0.2s;
+
+            &:hover{
+                background-color: adjust-color($color: hsl(180, 66%, 49%), $lightness: 20%);
+            }
+        }
+    }
+}

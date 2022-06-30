@@ -1,13 +1,16 @@
 import React from "react";
-import Header from "./components/Header/header";
 
+import Banner from "./components/Banner/banner";
+import Header from "./components/Header/header";
 import './global.scss';
 
 function App() {
     return (
         <>
             <Header/>
-            <div>Hello</div>
+            <main>
+                <Banner/>
+            </main>
         </>
     );
 }

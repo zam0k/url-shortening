@@ -30,10 +30,10 @@
 .list {
     color: var(--grayish-violet);
     transition: color 0.2s;
-}
 
-.list:hover {
-    color: var(--very-dark-violet);
+    &:hover {
+        color: var(--very-dark-violet);
+    }
 }
 
 .signup {
@@ -44,8 +44,8 @@
     cursor: pointer;
 
     transition: background-color 0.2s;
-}
 
-.signup:hover{
-    background-color: adjust-color($color: hsl(180, 66%, 49%), $lightness: 20%);
+    &:hover{
+        background-color: adjust-color($color: hsl(180, 66%, 49%), $lightness: 20%);
+    }
 }
